@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    background-image: url(https://www.wallpapers13.com/wp-content/uploads/2015/12/Falling-comet-in-the-Earths-atmosphere-background-HD-1366x768.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    font-weight: bold;
+    color: #789499;
+    background-attachment: fixed;
+  }
+  form{
+    min-width: 150px;
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 15px;
+    background-color: rgb(25 90 120 / .3);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  h1{
+    color: #ead887;
+    text-align: center;
+  }
+  input[placeholder]{
+    display: block;
+    margin: 10px auto;
+    min-width: 150px;
+    max-width: 300px;
+    outline: none;
+    padding: 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    border-color: transparent;
+    color: #789499;
+    border-radius: 15% 0;
+    -webkit-border-radius: 15% 0;
+    -moz-border-radius: 15% 0;
+    -ms-border-radius: 15% 0;
+    -o-border-radius: 15% 0;
+}
+  input[type="radio"]{
+    margin: 10px 10px 10px 0;
+  }
+  label{
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  input[type="submit"],
+  input[type="reset"]{
+    width: 45%;
+    margin: 20px 0  20px 8px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #255222;
+    background-color: #ead778;
+    border-radius: 0 40%;
+    border-color: transparent;
+    transition-duration: .5s;
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -ms-transition-duration: .5s;
+    -o-transition-duration: .5s;
+}
+  input[type="submit"]:hover,
+  input[type="reset"]:hover{
+    color: #ead778;
+    background-color: #255222;
+    border-radius: 20% 0;
+    -webkit-border-radius: 20% 0;
+    -moz-border-radius: 20% 0;
+    -ms-border-radius: 20% 0;
+    -o-border-radius: 20% 0;
+}
